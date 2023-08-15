@@ -1,0 +1,18 @@
+server:
+  port: :8000
+
+pgsql:
+  host: 数据库地址
+  port: 端口
+  user: 用户名
+  password: 密码
+  database: 数据库
+
+wx:
+  appid: 微信公众号appid
+  secret: 微信公众号secret
+influxdb:
+  url: http://localhost:8086
+  token: 数据库token
+  bucket: bucket
+  org: org
